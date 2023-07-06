@@ -1,0 +1,92 @@
+.card-dark,
+.card-light {
+  background: #f7eaea;
+}
+
+/* .item {
+  color: green;
+}
+
+li:only-child {
+  color: blue;
+}
+
+.item:last-child {
+  color: rgb(24, 24, 70);
+}
+
+.item:first-child {
+  color: blue;
+}
+
+p:last-of-type,
+p:first-of-type {
+  color: red;
+}
+
+.item:only-of-type {
+  color: greenyellow;
+}
+
+.item:nth-of-type(2) {
+  color: rgb(64, 231, 253);
+}
+
+.item:not(p) {
+  color: blueviolet;
+}
+
+p:empty {
+  height: 10px;
+  background: red;
+} */
+
+.input-dark {
+  background: #8f8686;
+}
+
+.input-dark[required] {
+  background: #cc6363;
+}
+
+.input-dark[type='number'] {
+  background: #1fd84d;
+}
+
+.small-img[alt~='small'] {
+  height: 300px;
+}
+
+a[rel~='external'] {
+  color: rgb(219, 19, 152);
+}
+
+button[class|='btn'] {
+  background: rgb(243, 203, 188);
+}
+
+a[class*='btn'] {
+  background: rgb(163, 111, 92);
+}
+
+a[class$='big'] {
+  background: rgb(30, 22, 102);
+}
+
+.btn::first-letter {
+  color: rgb(197, 8, 8);
+}
+
+.big-text::first-line {
+  color: red;
+}
+
+.input-dark::placeholder {
+  color: #2ea9fc;
+}
+
+.big-text::after,
+.big-text::before {
+  content: '$$$';
+  color: rgb(134, 209, 134);
+}
