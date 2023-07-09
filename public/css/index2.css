@@ -90,3 +90,96 @@ a[class$='big'] {
   content: '$$$';
   color: rgb(134, 209, 134);
 }
+
+#test:target {
+  color: red;
+}
+
+.link:link {
+  color: red;
+}
+
+.link:hover {
+  color: rgb(48, 56, 48);
+}
+
+/* .card:hover {
+  background: green;
+} */
+
+.link:active {
+  color: rgb(236, 214, 236);
+}
+
+.card:active {
+  background: purple;
+}
+
+input {
+  background: grey;
+}
+
+input:focus {
+  background-color: white;
+}
+
+.card:focus-within {
+  background: red;
+}
+
+.card:lang(en) > span::after {
+  content: '(en)';
+  background: blue;
+}
+
+button {
+  background-color: #1fd84d;
+}
+
+button:enabled {
+  background-color: green;
+}
+
+button:disabled {
+  background-color: #45c27d;
+}
+
+.inp:read-write {
+  background-color: blue;
+}
+
+.inp:read-only {
+  background-color: rgb(22, 10, 10);
+}
+
+input[type='checkbox']:checked ~ span {
+  background: red;
+}
+
+.valid:valid {
+  background: yellow;
+}
+
+.valid:invalid {
+  background: red;
+}
+
+.valid:optional {
+  background: green;
+}
+
+.number:out-of-range {
+  background: red;
+}
+
+.number:in-range {
+  background: green;
+}
+
+.number:invalid {
+  background: red;
+}
+
+input:placeholder-shown {
+  background: pink;
+}
