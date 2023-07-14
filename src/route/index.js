@@ -18,11 +18,13 @@ router.get('/', function (req, res) {
 
 // ================================================================
 
-router.get('/index2', function (req, res) {
+router.get('/selector', function (req, res) {
   // res.render генерує нам HTML сторінку
 
   //            ↙ cюди вводимо назву файлу з сontainer
-  res.render('index2', {})
+  res.render('selector', {
+    layout: 'selector',
+  })
   //                  ↑↑ сюди вводимо JSON дані
 })
 
